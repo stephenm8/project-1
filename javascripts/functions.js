@@ -9,3 +9,15 @@ let arrAvg = arr => {
   }
   return sum / arr.length;
 };
+//Req. 3c
+let arrMax = arr => {
+  var max;
+  arr.forEach(elem => {
+    if (elem > max) {
+      max = elem;
+    }
+  });
+  return max;
+};
+
+// Req. 3d
