@@ -21,3 +21,10 @@ let arrMax = arr => {
 };
 
 // Req. 3d
+ let sumEvens = arr => {
+   let sum = 0;
+   for(let elem of arr) {
+     sum += ${elem % 2 = 0 ? 0 : elem};
+   }
+   return sum
+ }
